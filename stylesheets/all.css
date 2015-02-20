@@ -1172,7 +1172,7 @@ header.main-header {
   .objects-container .object {
     display: block;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
-    width: 29.375em;
+    width: 29.0625em;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     height: 38.125em;
     text-align: left;
@@ -1181,7 +1181,7 @@ header.main-header {
     /* line 127, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .objects-container .object .photo-block {
       /* unwrap lists for values that have multiple list of values such as text-shadow */
-      width: 29.375em;
+      width: 29.0625em;
       /* unwrap lists for values that have multiple list of values such as text-shadow */
       height: 25.5em;
       overflow: hidden;
@@ -1294,7 +1294,7 @@ header.main-header {
 .event-item {
   display: block;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
-  width: 29.375em;
+  width: 29.0625em;
   background: #fff;
   text-decoration: none; }
   /* line 207, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
@@ -1408,7 +1408,7 @@ header.main-header {
   /* line 278, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .catalog-apartment-list .ap-block {
     display: block;
-    width: 310px;
+    width: 305px;
     text-decoration: none;
     color: #000;
     background: #fff;
