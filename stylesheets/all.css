@@ -619,18 +619,20 @@ i {
 input[type='text'], input[type='search'] {
   width: 100%;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
-  height: 2.22222em;
+  height: 2.5em;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background: #efefef;
-  font-size: 1.125em;
+  background: #fff;
+  font-size: 1em;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
-  line-height: 1.44444em;
+  line-height: 1.625em;
   border: 0;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
   /* unwrap lists for values that have multiple list of values such as text-shadow */
-  padding: 0.38889em 1.38889em; }
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  padding: 0.4375em 1.5625em 0.4375em 2.9375em; }
 
 @media only screen and (max-width: 1024px) {
   /* line 148, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_ui.scss */
@@ -904,92 +906,6 @@ footer.main-footer {
     .footer-resource-menu a:hover {
       text-decoration: underline; }
 
-/* line 1, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-header.main-header {
-  height: 40px;
-  position: relative; }
-  /* line 5, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-  header.main-header:hover .resource-main-menu {
-    background: #f8f8f8;
-    /* unwrap lists for values that have multiple list of values such as text-shadow */
-    margin-left: -1.4375em; }
-    /* line 8, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-    header.main-header:hover .resource-main-menu a {
-      height: auto; }
-      /* line 10, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-      header.main-header:hover .resource-main-menu a.main_karpaty {
-        width: 64px; }
-      /* line 11, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-      header.main-header:hover .resource-main-menu a.booking_karpaty {
-        width: 118px; }
-      /* line 12, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-      header.main-header:hover .resource-main-menu a.eventscalendar_karpaty {
-        width: 99px; }
-
-/* line 18, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-.resource-main-menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 20px 10px 15px;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  z-index: 10; }
-  /* line 25, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-  .resource-main-menu li {
-    float: left;
-    margin-left: 18px; }
-  /* line 29, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-  .resource-main-menu a {
-    display: block;
-    position: relative;
-    font-family: "PT Sans", sans-serif;
-    font-size: 0.875em;
-    color: #7b7b7b;
-    text-decoration: none;
-    width: 18px;
-    height: 20px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-top: 20px;
-    overflow: hidden;
-    -moz-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
-    text-align: center;
-    white-space: nowrap; }
-    /* line 44, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-    .resource-main-menu a:hover {
-      color: #000; }
-    /* line 45, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-    .resource-main-menu a:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 50%;
-      margin-left: -9px;
-      display: block;
-      width: 18px;
-      height: 20px;
-      background: url("../images/resource-main-menu-ico.png") no-repeat;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      -webkit-background-size: cover;
-      background-size: cover; }
-    /* line 58, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-    .resource-main-menu a.main_karpaty:before {
-      background-position: 0 0; }
-    /* line 61, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-    .resource-main-menu a.booking_karpaty:before {
-      background-position: 0 -20px; }
-    /* line 64, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_header.scss */
-    .resource-main-menu a.eventscalendar_karpaty:before {
-      background-position: 0 -40px; }
-
 /* line 1, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .slide {
   /* unwrap lists for values that have multiple list of values such as text-shadow */
@@ -1000,29 +916,55 @@ header.main-header {
 
 /* line 5, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .heading-slide {
-  text-align: center; }
+  text-align: center;
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  margin-top: 1.875em; }
 
-/* line 7, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 10, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .form-container {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  width: 85%;
+  width: 100%;
   text-align: left;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
   margin-top: 2.8125em; }
-  /* line 12, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 15, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .form-container .search-field {
-    width: 80%;
-    float: left; }
-  /* line 16, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
-  .form-container .stn-btn {
-    width: 20%;
+    position: relative;
+    width: 85%;
     float: left;
+    border: 1px solid #00b1c6;
+    border-right: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    /* line 22, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    .form-container .search-field:before {
+      content: '';
+      position: absolute;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      left: 0.5em;
+      top: 50%;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      margin-top: -0.625em;
+      display: block;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      width: 1.3125em;
+      height: 1.3125em;
+      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhEOUUyNDc5QkI2NTExRTRBMUJFRDFCRTQ2QjhDQzVEIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhEOUUyNDdBQkI2NTExRTRBMUJFRDFCRTQ2QjhDQzVEIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OEQ5RTI0NzdCQjY1MTFFNEExQkVEMUJFNDZCOENDNUQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OEQ5RTI0NzhCQjY1MTFFNEExQkVEMUJFNDZCOENDNUQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6T9/MZAAABnUlEQVR42qzUzStEURjH8TNmWJCXGoRS2EiJLCS7ibxN/AGzEEVJKfEPzMxSKRZTlpRQEpENISuUhbcixcKKko2xkPfv0TMZd8688tSne+/Mvb977uk8x6ZW95SlCtGLLlQjD3c4xDLm8aJiVJrlehDXGEO2hIxjG7WYxgVcsUIdYeeTGMYORnFiuL8TE9hEDxZijXRIAqfQGiVQ1zrqcYAZNJpusjGnxRyvsI82vKv4VSAvvkcdPqwjHUAmRhIMVBLmRw2aTJ/vxhHOVHI1J6vAbQotk+WSbD3hEuWm0Fw8qtTqWZ6PCNULuzTFUP3crSn0GM2WNZtIVaJIno8I1Qs4H91JhurV8opFU+gSTqU1KxIMbEE/1nBjCn2DBxnYQFWcQL3RrMAu+0PUNj1Hh9yk5yiABqTL/7o52mWD0aPLkt91S3tNbRp+XSLT4JGRfCKIHPk/KP3vlMBQ+aTDjKGhckqnWPfTLVmboSCvKTjaMnrAbJy59cnRa7n225WnT/2hdr+/9mfTdpl2/lTq13zqlzjU/5Qv/PxLgAEAcIpVyQibjIQAAAAASUVORK5CYII=') no-repeat;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover; }
+  /* line 34, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  .form-container .stn-btn {
     /* unwrap lists for values that have multiple list of values such as text-shadow */
-    height: 2.85714em;
+    height: 3em;
+    width: 15%;
+    float: left;
     font-size: 0.875em;
     font-family: "PT Sans", sans-serif;
     color: #fff;
@@ -1033,44 +975,116 @@ header.main-header {
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    transition: all 0.5s; }
-    /* line 28, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    transition: all 0.5s;
+    border: 1px solid #00b1c6;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    /* line 48, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .form-container .stn-btn:hover {
       background: none;
       color: #00b1c6; }
 
-/* line 36, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 56, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .random-resource-objects-list li {
   float: left;
   width: 25%; }
-/* line 40, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 60, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .random-resource-objects-list .item {
   display: block;
   text-decoration: none; }
-/* line 44, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 65, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  .random-resource-objects-list .item:hover .photo-block .mask {
+    opacity: 1; }
+/* line 69, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .random-resource-objects-list .photo-block {
   position: relative; }
-  /* line 46, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 71, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  .random-resource-objects-list .photo-block .mask {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(71, 227, 255, 0.5);
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-transition-delay: 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%; }
+    /* line 82, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    .random-resource-objects-list .photo-block .mask .click {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      margin: -2.3125em 0em 0em -2.3125em;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      width: 4.6875em;
+      height: 4.6875em;
+      background: url("../images/hover-ico.png") no-repeat; }
+      /* line 91, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      .random-resource-objects-list .photo-block .mask .click:before {
+        content: '';
+        position: absolute;
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        width: 5.9375em;
+        height: 5.9375em;
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        top: -0.625em;
+        left: -0.625em;
+        bottom: -0.625em;
+        right: -0.625em;
+        background: #fff;
+        z-index: -1;
+        opacity: 0;
+        -webkit-transform: scale3d(0.8, 0.8, 1);
+        transform: scale3d(0.8, 0.8, 1);
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%;
+        -moz-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s; }
+      /* line 104, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      .random-resource-objects-list .photo-block .mask .click:hover {
+        -webkit-animation: anim-moema-1 0.3s forwards;
+        animation: anim-moema-1 0.3s forwards; }
+        /* line 107, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        .random-resource-objects-list .photo-block .mask .click:hover:before {
+          opacity: 0.4;
+          -webkit-animation: anim-moema-2 0.3s 0.3s forwards;
+          animation: anim-moema-2 0.3s 0.3s forwards; }
+  /* line 115, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .random-resource-objects-list .photo-block img {
     display: block;
     width: 100%;
     height: auto; }
-  /* line 51, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 120, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .random-resource-objects-list .photo-block h5 {
     position: absolute;
     bottom: 0;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
-    left: 0.68182em;
+    left: 0.90909em;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
-    bottom: 0.68182em;
+    bottom: 0.77273em;
     color: #fff;
     text-transform: uppercase; }
-/* line 60, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 129, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .random-resource-objects-list .desc {
-  font-weight: 800;
+  font-weight: 300;
   color: #7c7c7c;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
-  line-height: 1.375em;
+  line-height: 1.5em;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
   padding: 0.9375em;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
@@ -1080,16 +1094,16 @@ header.main-header {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 73, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 142, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .categories-slide {
   /* unwrap lists for values that have multiple list of values such as text-shadow */
   padding-bottom: 0em; }
 
-/* line 75, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 144, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .categories-slide-body {
   /* unwrap lists for values that have multiple list of values such as text-shadow */
   height: 45em; }
-  /* line 77, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 146, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .categories-slide-body .slide-category {
     display: block;
     float: left;
@@ -1109,23 +1123,23 @@ header.main-header {
     -o-transition: background-size 0.5s ease-in;
     -webkit-transition: background-size 0.5s ease-in;
     transition: background-size 0.5s ease-in; }
-    /* line 90, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 159, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .categories-slide-body .slide-category.cat1 {
       background-image: url("../images/s3-cat1.jpg"); }
-    /* line 91, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 160, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .categories-slide-body .slide-category.cat2 {
       background-image: url("../images/s3-cat2.jpg"); }
-    /* line 92, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 161, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .categories-slide-body .slide-category.cat3 {
       background-image: url("../images/s3-cat3.jpg"); }
-    /* line 93, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 162, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .categories-slide-body .slide-category.cat4 {
       background-image: url("../images/s3-cat4.jpg"); }
-    /* line 94, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 163, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .categories-slide-body .slide-category .info {
       display: table-cell;
       vertical-align: middle; }
-    /* line 95, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 164, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .categories-slide-body .slide-category h3 {
       display: inline-block;
       vertical-align: middle;
@@ -1136,29 +1150,27 @@ header.main-header {
       padding-left: 1.66667em;
       padding-right: 1.66667em;
       transition-duration: 1s; }
-    /* line 100, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 169, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .categories-slide-body .slide-category:hover {
       -moz-background-size: 1104px 414px;
       -o-background-size: 1104px 414px;
       -webkit-background-size: 1104px 414px;
       background-size: 1104px 414px; }
-      /* line 102, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 171, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .categories-slide-body .slide-category:hover h3 {
         background: rgba(0, 0, 0, 0.5); }
 
-/* line 110, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 179, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .objects-container {
   text-align: center; }
-  /* line 112, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 181, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .objects-container .objects-list {
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     *zoom: 1;
-    *display: inline;
-    /* unwrap lists for values that have multiple list of values such as text-shadow */
-    margin-top: -0.9375em; }
-  /* line 116, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    *display: inline; }
+  /* line 182, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .objects-container li {
     display: inline-block;
     vertical-align: middle;
@@ -1167,27 +1179,99 @@ header.main-header {
     *display: inline;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     /* unwrap lists for values that have multiple list of values such as text-shadow */
-    margin: 0.9375em 0.1875em; }
-  /* line 120, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    margin: 0.625em 0.1875em;
+    text-align: left;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    width: 29.375em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    height: 26.25em; }
+    /* line 188, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    .objects-container li a.more {
+      font-style: italic;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      font-weight: 500; }
+  /* line 195, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .objects-container .object {
     display: block;
-    /* unwrap lists for values that have multiple list of values such as text-shadow */
-    width: 29.0625em;
-    /* unwrap lists for values that have multiple list of values such as text-shadow */
-    height: 38.125em;
-    text-align: left;
     text-decoration: none;
     color: #000; }
-    /* line 127, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 199, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .objects-container .object .photo-block {
       /* unwrap lists for values that have multiple list of values such as text-shadow */
-      width: 29.0625em;
+      width: 29.375em;
       /* unwrap lists for values that have multiple list of values such as text-shadow */
-      height: 25.5em;
+      height: 16.5em;
       overflow: hidden;
       text-align: center;
       position: relative; }
-      /* line 133, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 205, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      .objects-container .object .photo-block .mask {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(71, 227, 255, 0.5);
+        height: 100%;
+        opacity: 0;
+        position: absolute;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
+        -webkit-transition: all 0.3s ease-in-out;
+        -webkit-transition-delay: 0s;
+        transition: all 0.3s ease-in-out 0s;
+        width: 100%;
+        z-index: 5; }
+        /* line 217, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        .objects-container .object .photo-block .mask .click {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          /* unwrap lists for values that have multiple list of values such as text-shadow */
+          /* unwrap lists for values that have multiple list of values such as text-shadow */
+          /* unwrap lists for values that have multiple list of values such as text-shadow */
+          /* unwrap lists for values that have multiple list of values such as text-shadow */
+          margin: -2.3125em 0em 0em -2.3125em;
+          /* unwrap lists for values that have multiple list of values such as text-shadow */
+          width: 4.6875em;
+          height: 4.6875em;
+          background: url("../images/hover-ico.png") no-repeat; }
+          /* line 226, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+          .objects-container .object .photo-block .mask .click:before {
+            content: '';
+            position: absolute;
+            /* unwrap lists for values that have multiple list of values such as text-shadow */
+            width: 5.9375em;
+            height: 5.9375em;
+            /* unwrap lists for values that have multiple list of values such as text-shadow */
+            top: -0.625em;
+            left: -0.625em;
+            bottom: -0.625em;
+            right: -0.625em;
+            background: #fff;
+            z-index: -1;
+            opacity: 0;
+            -webkit-transform: scale3d(0.8, 0.8, 1);
+            transform: scale3d(0.8, 0.8, 1);
+            -moz-border-radius: 100%;
+            -webkit-border-radius: 100%;
+            border-radius: 100%;
+            -moz-transition: opacity 0.3s;
+            -o-transition: opacity 0.3s;
+            -webkit-transition: opacity 0.3s;
+            transition: opacity 0.3s; }
+          /* line 239, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+          .objects-container .object .photo-block .mask .click:hover {
+            -webkit-animation: anim-moema-1 0.3s forwards;
+            animation: anim-moema-1 0.3s forwards; }
+            /* line 242, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+            .objects-container .object .photo-block .mask .click:hover:before {
+              opacity: 0.4;
+              -webkit-animation: anim-moema-2 0.3s 0.3s forwards;
+              animation: anim-moema-2 0.3s 0.3s forwards; }
+      /* line 250, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .objects-container .object .photo-block .object-breadcrumbs {
         position: absolute;
         bottom: 0;
@@ -1197,7 +1281,7 @@ header.main-header {
         /* unwrap lists for values that have multiple list of values such as text-shadow */
         /* unwrap lists for values that have multiple list of values such as text-shadow */
         padding: 0em 1.875em; }
-        /* line 140, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        /* line 257, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
         .objects-container .object .photo-block .object-breadcrumbs span {
           display: block;
           display: inline-block;
@@ -1210,64 +1294,69 @@ header.main-header {
           font-family: "PT Sans", sans-serif;
           /* unwrap lists for values that have multiple list of values such as text-shadow */
           line-height: 2em; }
-      /* line 149, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 266, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .objects-container .object .photo-block img {
-        display: block;
         position: absolute;
-        left: 50%;
-        top: 50%;
-        /* unwrap lists for values that have multiple list of values such as text-shadow */
-        /* unwrap lists for values that have multiple list of values such as text-shadow */
-        /* unwrap lists for values that have multiple list of values such as text-shadow */
-        /* unwrap lists for values that have multiple list of values such as text-shadow */
-        margin: -12.75em 0em 0em -14.6875em;
         /* unwrap lists for values that have multiple list of values such as text-shadow */
         width: 29.375em;
         /* unwrap lists for values that have multiple list of values such as text-shadow */
-        height: 25.5em;
+        height: 16.5em;
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        margin: -8.25em 0em 0em -14.6875em;
+        top: 50%;
+        left: 50%;
         -moz-transition: all 0.5s ease-in;
         -o-transition: all 0.5s ease-in;
         -webkit-transition: all 0.5s ease-in;
-        transition: all 0.5s ease-in; }
-    /* line 160, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        transition: all 0.5s ease-in;
+        z-index: 1; }
+    /* line 277, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .objects-container .object .txt-desc {
       /* unwrap lists for values that have multiple list of values such as text-shadow */
-      padding: 1.875em; }
-      /* line 162, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      padding: 0.9375em 0.9375em 0.3125em 0em; }
+      /* line 279, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .objects-container .object .txt-desc h5 {
+        text-transform: uppercase;
         /* unwrap lists for values that have multiple list of values such as text-shadow */
         max-height: 3em;
-        overflow: hidden;
-        text-transform: uppercase; }
-      /* line 167, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        overflow: hidden; }
+      /* line 284, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .objects-container .object .txt-desc p {
         /* unwrap lists for values that have multiple list of values such as text-shadow */
-        margin-top: 0.9375em;
+        margin-top: 0.3125em;
         /* unwrap lists for values that have multiple list of values such as text-shadow */
-        height: 4.5em;
-        overflow: hidden;
-        font-family: "Lora", serif; }
-    /* line 175, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        max-height: 4.5em;
+        overflow: hidden; }
+    /* line 291, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .objects-container .object:hover img {
       /* unwrap lists for values that have multiple list of values such as text-shadow */
+      width: 32.5em;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      height: 18.25em;
       /* unwrap lists for values that have multiple list of values such as text-shadow */
       /* unwrap lists for values that have multiple list of values such as text-shadow */
       /* unwrap lists for values that have multiple list of values such as text-shadow */
-      margin: -14em 0em 0em -16.125em;
       /* unwrap lists for values that have multiple list of values such as text-shadow */
-      width: 32.25em;
-      /* unwrap lists for values that have multiple list of values such as text-shadow */
-      height: 28em; }
+      margin: -9.125em 0em 0em -16.25em; }
+    /* line 296, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    .objects-container .object:hover .mask {
+      opacity: 1; }
 
-/* line 186, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 303, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .events-slide .more-results {
   /* unwrap lists for values that have multiple list of values such as text-shadow */
   margin-top: 2.8125em; }
 
-/* line 189, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 306, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .eventslist-block {
   text-align: center; }
-  /* line 191, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 308, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .eventslist-block .eventslist {
     display: inline-block;
     vertical-align: middle;
@@ -1276,7 +1365,7 @@ header.main-header {
     *display: inline;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     margin-top: -0.625em; }
-  /* line 195, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 312, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .eventslist-block li {
     display: inline-block;
     vertical-align: middle;
@@ -1290,24 +1379,82 @@ header.main-header {
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     margin: 0.625em 0.1875em 0em 0.1875em; }
 
-/* line 202, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 319, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .event-item {
   display: block;
   /* unwrap lists for values that have multiple list of values such as text-shadow */
   width: 29.0625em;
   background: #fff;
-  text-decoration: none; }
-  /* line 207, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  text-decoration: none;
+  border: 1px solid #fff;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  /* line 326, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .event-item .photo-block {
     position: relative;
     width: 100%;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     height: 19.625em; }
-    /* line 211, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 330, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .event-item .photo-block img {
       width: 100%;
       height: 100%; }
-  /* line 213, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 331, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    .event-item .photo-block .mask {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      margin: -2.3125em 0em 0em -2.3125em;
+      /* unwrap lists for values that have multiple list of values such as text-shadow */
+      width: 4.6875em;
+      height: 4.6875em;
+      background: url("../images/hover-ico.png") no-repeat;
+      opacity: 0;
+      -moz-transition: opacity 0.3s;
+      -o-transition: opacity 0.3s;
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s; }
+      /* line 341, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      .event-item .photo-block .mask:before {
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        width: 5.9375em;
+        height: 5.9375em;
+        /* unwrap lists for values that have multiple list of values such as text-shadow */
+        top: -0.625em;
+        left: -0.625em;
+        bottom: -0.625em;
+        right: -0.625em;
+        content: '';
+        position: absolute;
+        background: #fff;
+        z-index: -1;
+        opacity: 0;
+        -webkit-transform: scale3d(0.8, 0.8, 1);
+        transform: scale3d(0.8, 0.8, 1);
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%;
+        -moz-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s; }
+      /* line 354, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      .event-item .photo-block .mask:hover {
+        -webkit-animation: anim-moema-1 0.3s forwards;
+        animation: anim-moema-1 0.3s forwards; }
+        /* line 357, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        .event-item .photo-block .mask:hover:before {
+          opacity: 0.4;
+          -webkit-animation: anim-moema-2 0.3s 0.3s forwards;
+          animation: anim-moema-2 0.3s 0.3s forwards; }
+  /* line 365, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .event-item .breadcrumbs {
     position: absolute;
     bottom: 0;
@@ -1317,7 +1464,7 @@ header.main-header {
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     padding: 0em 1.875em; }
-    /* line 220, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 372, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .event-item .breadcrumbs span {
       display: block;
       display: inline-block;
@@ -1330,25 +1477,25 @@ header.main-header {
       font-family: "PT Sans", sans-serif;
       /* unwrap lists for values that have multiple list of values such as text-shadow */
       line-height: 2em; }
-  /* line 229, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 381, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .event-item h5 {
     color: #000;
     text-transform: uppercase; }
-    /* line 232, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 384, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .event-item h5 span {
       display: block; }
-  /* line 234, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 386, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .event-item .txt-desc {
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     padding: 1.75em 1.875em 1.125em 1.875em; }
-  /* line 237, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 389, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .event-item .date-price {
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     margin-top: 1.125em; }
-    /* line 239, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 391, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .event-item .date-price .date, .event-item .date-price .price {
       float: left;
       width: 75%;
@@ -1359,23 +1506,29 @@ header.main-header {
       color: #00b1c6;
       font-weight: 700;
       font-size: 1.25em; }
-    /* line 250, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 402, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .event-item .date-price .price {
       width: 25%;
       float: right;
       font-size: 1em;
       color: #000;
       text-align: right; }
+  /* line 410, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  .event-item:hover {
+    border: 1px solid #00b1c6; }
+    /* line 412, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    .event-item:hover .mask {
+      opacity: 1; }
 
-/* line 263, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 419, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .apartments-slide .more-results {
   /* unwrap lists for values that have multiple list of values such as text-shadow */
   margin-top: 2.8125em; }
 
-/* line 265, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+/* line 421, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
 .catalog-apartment-list {
   text-align: center; }
-  /* line 267, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 423, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .catalog-apartment-list .list {
     display: inline-block;
     vertical-align: middle;
@@ -1384,7 +1537,7 @@ header.main-header {
     *display: inline;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     margin-top: -0.625em; }
-  /* line 271, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 427, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .catalog-apartment-list .item {
     display: inline-block;
     vertical-align: middle;
@@ -1397,15 +1550,15 @@ header.main-header {
     /* unwrap lists for values that have multiple list of values such as text-shadow */
     margin: 0.625em 0.1875em 0em 0.1875em;
     text-align: left; }
-    /* line 275, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 431, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .item p {
       margin-top: 0;
       color: #1e6981; }
-    /* line 276, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 432, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .item:last-child {
       /* unwrap lists for values that have multiple list of values such as text-shadow */
       margin-right: 0em; }
-  /* line 278, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+  /* line 434, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
   .catalog-apartment-list .ap-block {
     display: block;
     width: 305px;
@@ -1416,11 +1569,11 @@ header.main-header {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-transition: border 0.5s;
-    -o-transition: border 0.5s;
-    -webkit-transition: border 0.5s;
-    transition: border 0.5s; }
-    /* line 287, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    -moz-transition: border 0.3s;
+    -o-transition: border 0.3s;
+    -webkit-transition: border 0.3s;
+    transition: border 0.3s; }
+    /* line 443, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .ap-block .stn-btn {
       /* unwrap lists for values that have multiple list of values such as text-shadow */
       height: 3em;
@@ -1456,27 +1609,27 @@ header.main-header {
       -webkit-transition: none;
       transition: none;
       width: auto; }
-    /* line 307, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 463, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .ap-block:hover {
-      border-color: #d6dcde; }
-      /* line 309, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      border-color: #00b1c6; }
+      /* line 465, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block:hover .stn-btn {
         border-bottom-width: 1px;
         margin-top: 2px; }
-    /* line 315, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 471, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .ap-block:active .stn-btn {
       border-bottom: none;
       margin-top: 3px; }
-    /* line 320, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 476, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .ap-block .photo-block {
       position: relative;
       width: 100%;
       height: 200px; }
-      /* line 324, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 480, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block .photo-block img {
         width: 100%;
         height: 200px; }
-    /* line 329, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 485, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .ap-block .name, .catalog-apartment-list .ap-block .location {
       position: absolute;
       top: 0;
@@ -1486,7 +1639,7 @@ header.main-header {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       padding: 9px 10px; }
-      /* line 336, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 492, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block .name h5, .catalog-apartment-list .ap-block .location h5 {
         font-family: "PT Sans", sans-serif;
         color: #fff;
@@ -1494,7 +1647,7 @@ header.main-header {
         font-weight: 400;
         /* unwrap lists for values that have multiple list of values such as text-shadow */
         line-height: 1.375em; }
-      /* line 343, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 499, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block .name h6, .catalog-apartment-list .ap-block .location h6 {
         font-size: 0.875em;
         /* unwrap lists for values that have multiple list of values such as text-shadow */
@@ -1504,21 +1657,21 @@ header.main-header {
         line-height: 1.57143em;
         background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAARCAQAAABDNIUpAAAA3klEQVR4AV2Nv0rCcRxFz1JauDgUSU+gNZS1+Diu/UEaewNrs6UHKPcsfA33akojqCFpaHA6XZAfP5ILX87nXC5fAKx56cTfZBKqiSC2fPHejptJx7tcLcG6U7tSxm5MHfveiusO/EluQsT08dk98cqxWzbyXov7vuLCNfHDbZG8c7N3gZ82xG93lkWImC8c2hP7jiN3HYeIGeKh726Yz50ng1A15gDxwXMp41kMuNxUCx2a2RZc3Zw6kqJoO1turISOyqLcnPgoZVFsKk49/l/gyAt7Pslq0fQtaRb3H9WlAi8FKgHPAAAAAElFTkSuQmCC') left center no-repeat;
         opacity: 1; }
-      /* line 351, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 507, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block .name p, .catalog-apartment-list .ap-block .location p {
         font-size: 0.875em;
         font-family: "PT Sans", sans-serif;
         color: #fff;
         /* unwrap lists for values that have multiple list of values such as text-shadow */
         line-height: 1.57143em; }
-        /* line 356, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        /* line 512, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
         .catalog-apartment-list .ap-block .name p span, .catalog-apartment-list .ap-block .location p span {
           font-weight: bold; }
-    /* line 359, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 515, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .ap-block .location {
       bottom: 0;
       top: auto; }
-      /* line 362, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 518, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block .location p, .catalog-apartment-list .ap-block .location h6 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -1527,16 +1680,16 @@ header.main-header {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap; }
-      /* line 370, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 526, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block .location p {
         text-align: right; }
-    /* line 372, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+    /* line 528, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
     .catalog-apartment-list .ap-block .price-line {
       padding: 10px; }
-      /* line 374, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 530, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block .price-line .pull-left {
         width: 180px; }
-      /* line 375, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+      /* line 531, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
       .catalog-apartment-list .ap-block .price-line p {
         color: #00b1c6;
         font-family: "Open Sans", sans-serif;
@@ -1544,94 +1697,317 @@ header.main-header {
         /* unwrap lists for values that have multiple list of values such as text-shadow */
         line-height: 1.25em;
         font-size: 0.75em; }
-        /* line 381, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        /* line 537, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
         .catalog-apartment-list .ap-block .price-line p span {
           font-weight: 400;
           color: #000; }
-        /* line 385, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
+        /* line 541, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_index.scss */
         .catalog-apartment-list .ap-block .price-line p.price {
           font-size: 0.875em; }
 
-/* line 1, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-#nav-trigger {
-  display: none;
-  position: absolute;
+@-webkit-keyframes anim-moema-1 {
+  60% {
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1); }
+  85% {
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+@keyframes anim-moema-1 {
+  60% {
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1); }
+  85% {
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+@-webkit-keyframes anim-moema-2 {
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+@keyframes anim-moema-2 {
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+/* line 1, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.main-menu-container {
+  min-height: 100%;
+  height: 100%; }
+
+/* line 5, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.cbp-spmenu {
+  position: fixed;
+  overflow: auto;
+  background: #1c1c1d;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 12, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.cbp-spmenu-vertical {
+  width: 360px;
+  height: 100%;
   top: 0;
-  left: 50%;
-  /* unwrap lists for values that have multiple list of values such as text-shadow */
-  margin-left: -2.14286em;
-  /* unwrap lists for values that have multiple list of values such as text-shadow */
-  width: 4.21429em;
-  /* unwrap lists for values that have multiple list of values such as text-shadow */
-  height: 2.85714em;
-  background: url("../images/nav-trigger.png") no-repeat;
-  z-index: 1100005; }
+  padding: 60px 0 190px 0;
+  z-index: 1000; }
 
-/* line 13, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-nav#nav-mobile {
-  position: relative;
-  display: none;
-  z-index: 1100000;
-  height: 80%; }
-  /* line 18, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-  nav#nav-mobile ul {
-    /* unwrap lists for values that have multiple list of values such as text-shadow */
-    /* unwrap lists for values that have multiple list of values such as text-shadow */
-    /* unwrap lists for values that have multiple list of values such as text-shadow */
-    /* unwrap lists for values that have multiple list of values such as text-shadow */
-    padding: 4.28571em 0em 1.42857em 0em;
-    display: none;
-    list-style-type: none;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.8); }
-  /* line 30, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-  nav#nav-mobile li {
-    display: block; }
-    /* line 32, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-    nav#nav-mobile li:last-child {
-      border-bottom: none; }
-  /* line 34, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-  nav#nav-mobile a {
+/* line 20, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.cbp-spmenu-left {
+  left: -360px; }
+  /* line 22, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .cbp-spmenu-left.cbp-spmenu-open {
+    left: 0px; }
+
+/* line 25, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.cbp-spmenu, .cbp-spmenu-push {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+/* line 27, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.menu-burger {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: #000;
+  z-index: 1001;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  /* line 38, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .menu-burger:focus {
+    outline: 0; }
+  /* line 39, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .menu-burger span.txt {
     display: block;
-    color: #fff;
+    position: absolute;
+    top: 0;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
+    right: -3.9375em;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
-    padding: 1.07143em 0em;
-    font-family: "PT Sans", sans-serif;
-    font-weight: 700;
+    width: 3.9375em;
     /* unwrap lists for values that have multiple list of values such as text-shadow */
-    font-size: 1.14286em;
-    text-decoration: none; }
-    /* line 42, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-    nav#nav-mobile a:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-      color: #fff; }
+    height: 3.125em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    line-height: 3.125em;
+    font-weight: 300;
+    font-size: 1em;
+    color: #7c7c7c;
+    text-decoration: none;
+    text-align: center;
+    opacity: 1;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+  /* line 55, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .menu-burger:before, .menu-burger:after, .menu-burger .line {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin-left: -15px;
+    opacity: 1;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+  /* line 68, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .menu-burger:after {
+    top: auto;
+    bottom: 18px; }
+  /* line 72, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .menu-burger .line {
+    top: 50%;
+    margin-top: -1px;
+    -moz-transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+    transition: opacity 0.1s; }
+  /* line 77, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .menu-burger.active {
+    background: #1c1c1d;
+    position: fixed; }
+    /* line 80, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+    .menu-burger.active .line {
+      opacity: 0; }
+    /* line 81, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+    .menu-burger.active:before {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      top: 50%;
+      margin-top: -1px; }
+    /* line 88, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+    .menu-burger.active:after {
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      top: 50%;
+      margin-top: -1px; }
+    /* line 95, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+    .menu-burger.active span.txt {
+      opacity: 0; }
 
-@media all and (max-width: 960px) {
-  /* line 50, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-  #nav-trigger {
+/* line 99, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+form.search-field {
+  position: relative;
+  height: 50px;
+  width: 100%; }
+  /* line 103, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  form.search-field:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkMxMTM3Q0ZEQkE5OTExRTRCNzM4RDlCRDc5NEVERTg0IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkMxMTM3Q0ZFQkE5OTExRTRCNzM4RDlCRDc5NEVERTg0Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QzExMzdDRkJCQTk5MTFFNEI3MzhEOUJENzk0RURFODQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QzExMzdDRkNCQTk5MTFFNEI3MzhEOUJENzk0RURFODQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5a/KOGAAAChklEQVR42mJk2HiMYfABJoZBCUadNeqsUWeNOmvUWaPOGnXWoHYWC3naxNhZE2RFfSWEdHg5BVhZXvz8ffr9l3XP3y57+ubXv/+UO4uRjPZWpoJ4l5Y8DwvzxU9fz374+u73H0l2NlthXjlO9nvffiRfuHvgzSd6h9YEHYV8Jcl9bz4WXXkIdBaylI+4YL+Owi4Lrfjzd5Y/fUO/tJWjKAF00/QHL92OX0dzExBsefne9NDlE+8/LzBUsRTkpZOzJDnYOrXk9775mHv5/t//2BPQh99/gk/fevvr9wx9JSZGujgrXV6ci5mp8MoDXG6CgNe/fjfeeqLHx+Ukwk8PZ3mJC5z/+PXyp28EVS59AsqPXmKC9HCWAhf76Q9fiFH55c/fm1++K3Kz08NZ/Cwsn/78JVLxj3//+FmY6eGsFz9/yXIQGwCynOzPf/ymh7MufPzmLMrPwkg4g6nzcEqws17AKEFo4ixgCSnCxhIrK0pQZaGS5O9//1c9fUsPZ6159vbSp2+dWnJKXBx4lLmK8qfIi216+e7h95/0cNaf//8jz95iY2TaaampycuJVY2vhOB6Mw1mRkZeCtI7EDAzRCYTr/r1rz8H336KkxUtVJICpp63v/+8+gWMLgZgMQtMdsD6u0lDlg1cuitzg0IUqJh+LQgpUC0kFyktAgwVYHn/+c9fPnDYABnAalGYjcVNVACisuHm48abT+jkLAgAWg8sx3X4uARYmV/8+A0safe8/ggsrkCuUZetV5ehxGWMNBrfotBlpKUt4sGBt58YGRgdRPiAbAdwnU1SOqNhWx45kIBOpEdbnniXoTEGOG2N9hNHnTXqrFFnjTpr1FmjzhrOzgIIMACQS/hX2gKFhQAAAABJRU5ErkJggg==') no-repeat; }
+  /* line 113, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  form.search-field input {
+    width: 100%;
+    height: 50px;
+    display: block;
+    border: none;
+    border-top: 1px solid #4a5456;
+    border-bottom: 1px solid #4a5456;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #1c1c1d;
+    color: #babbbb;
+    padding: 0 50px;
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    /* line 127, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+    form.search-field input:focus {
+      background-color: #171718; }
+
+/* line 131, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.main-menu, .usefull-links {
+  margin-top: 35px;
+  padding: 0 10px 190px 50px; }
+  /* line 134, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .main-menu a, .usefull-links a {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    font-size: 1.875em;
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    line-height: 1.73333em;
+    color: #4a5456;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline; }
+    /* line 143, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+    .main-menu a::before, .usefull-links a::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      max-width: 0;
+      color: #babbbb;
+      content: attr(data-hover);
+      -moz-transition: max-width 0.3s;
+      -o-transition: max-width 0.3s;
+      -webkit-transition: max-width 0.3s;
+      transition: max-width 0.3s; }
+    /* line 153, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+    .main-menu a:hover::before, .usefull-links a:hover::before {
+      max-width: 100%; }
+
+/* line 157, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.usefull-links {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  padding: 0;
+  width: 300px; }
+  /* line 163, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .usefull-links a {
+    font-size: 1.125em; }
+
+/* line 166, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.menu-copyright {
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  margin-top: 1.66667em;
+  font-size: 0.75em;
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  line-height: 1.33333em;
+  color: #4a5456; }
+  /* line 171, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .menu-copyright span {
     display: block; }
 
-  /* line 51, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-  nav#my-menu {
+/* line 174, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+a.link:focus {
+  outline: 0; }
+
+/* line 177, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.submenu-available a.link {
+  position: relative; }
+  /* line 179, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .submenu-available a.link:after {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    margin-top: -6px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAYCAYAAADOMhxqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkMxMTM3Q0Y5QkE5OTExRTRCNzM4RDlCRDc5NEVERTg0IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkMxMTM3Q0ZBQkE5OTExRTRCNzM4RDlCRDc5NEVERTg0Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QzExMzdDRjdCQTk5MTFFNEI3MzhEOUJENzk0RURFODQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QzExMzdDRjhCQTk5MTFFNEI3MzhEOUJENzk0RURFODQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6uf7G+AAAAOklEQVR42mL0CgljwAL+Q2lGdAkmBhLBINTAguRBfJ6nzAbGkRasjP///x95GoAZ6P9osFJbA0CAAQAk0iTxbQmaqAAAAABJRU5ErkJggg==') no-repeat;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+/* line 193, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.submenu-available.opened a.link {
+  color: #babbbb; }
+  /* line 195, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .submenu-available.opened a.link:before {
     display: none; }
+  /* line 196, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .submenu-available.opened a.link:after {
+    background-position: 0 -12px; }
 
-  /* line 52, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-  nav#nav-mobile {
-    display: block; }
+/* line 201, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+.submenu {
+  display: none;
+  /* unwrap lists for values that have multiple list of values such as text-shadow */
+  padding-left: 1.25em; }
+  /* line 204, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_burger-menu.scss */
+  .submenu a {
+    /* unwrap lists for values that have multiple list of values such as text-shadow */
+    font-size: 1.125em; }
 
-  /* line 53, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-  .resource-main-menu {
-    display: none; }
-
-  /* line 54, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_mobilenav.scss */
-  header.main-header {
-    height: 0; } }
 @media all and (max-width: 960px) {
   /* line 2, /Users/admin/Works/karpaty_main/pages-v2/source/stylesheets/partials/_responsivemedia.scss */
   input[type='search'] {

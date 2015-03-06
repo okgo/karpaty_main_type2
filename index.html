@@ -8,35 +8,86 @@
   </head>
   <body>
     <div class='wrap'>
-      <header class='main-header clearfix'>
-        <nav>
-          <ul class='resource-main-menu clearfix'>
-            <li>
-              <a class='main_karpaty' href='#'>Karpaty.ua</a>
-            </li>
-            <li>
-              <a class='booking_karpaty' href='#'>Бронювання житла</a>
-            </li>
-            <li>
-              <a class='eventscalendar_karpaty' href='#'>Гід Карпатами</a>
-            </li>
-          </ul>
-          <a href='#' id='nav-trigger'></a>
-          <nav id='nav-mobile'>
+      <div class='main-menu-container'>
+        <a class='menu-burger' href='#' id='menu-toggler'>
+          <span class='line'></span>
+          <span class='txt'>Меню</span>
+        </a>
+        <div class='cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left' id='main-menu'>
+          <form action='/' class='search-field'>
+            <input placeholder='Пошук' type='search'>
+          </form>
+          <nav class='main-menu'>
             <ul>
               <li>
-                <a href='#'>Календар подій</a>
+                <a class='link' data-hover='Karpaty.ua' href='#'>Karpaty.ua</a>
               </li>
-              <li>
-                <a href='#'>Бронювання житла</a>
+              <li class='submenu-available'>
+                <a class='link' data-hover='Гід регіонами' href='#'>Гід регіонами</a>
+                <ul class='submenu'>
+                  <li>
+                    <a data-hover='Головна' href='#'>Головна</a>
+                  </li>
+                  <li>
+                    <a data-hover='Категорії відпочинку' href='#'>Категорії відпочинку</a>
+                  </li>
+                  <li>
+                    <a data-hover='Райони/Локації' href='#'>Райони/Локації</a>
+                  </li>
+                  <li>
+                    <a data-hover='Міста' href='#'>Міста</a>
+                  </li>
+                  <li>
+                    <a data-hover='Об’єкти' href='#'>Об’єкти</a>
+                  </li>
+                </ul>
               </li>
-              <li>
-                <a href='#'>Гід Карпатами</a>
+              <li class='submenu-available'>
+                <a class='link' data-hover='Календар подій' href='#'>Календар подій</a>
+                <ul class='submenu'>
+                  <li>
+                    <a data-hover='Головна' href='#'>Головна</a>
+                  </li>
+                  <li>
+                    <a data-hover='Події' href='#'>Події</a>
+                  </li>
+                </ul>
+              </li>
+              <li class='submenu-available'>
+                <a class='link' data-hover='Бронювання житла' href='#'>Бронювання житла</a>
+                <ul class='submenu'>
+                  <li>
+                    <a data-hover='Головна' href='#'>Головна</a>
+                  </li>
+                  <li>
+                    <a data-hover='Каталог житла' href='#'>Каталог житла</a>
+                  </li>
+                  <li>
+                    <a data-hover='Додати житло' href='#'>Додати житло</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </nav>
-        </nav>
-      </header>
+          <div class='usefull-links'>
+            <ul>
+              <li>
+                <a data-hover='Про Карпати.UA' href='#'>Про Карпати.UA</a>
+              </li>
+              <li>
+                <a data-hover='Контактна інформація' href='#'>Контактна інформація</a>
+              </li>
+              <li>
+                <a data-hover='Реклама на сайті' href='#'>Реклама на сайті</a>
+              </li>
+            </ul>
+            <p class='menu-copyright'>
+              Всі права застережено
+              <span>© KARPATY.UA</span>
+            </p>
+          </div>
+        </div>
+      </div>
       <div class='slide heading-slide'>
         <div class='container'>
           <div class='parallax'>
@@ -55,7 +106,7 @@
           <div class='form-container'>
             <form action='/' class='clearfix' id='search-form'>
               <div class='search-field'>
-                <input placeholder='Шукай' type='search'>
+                <input placeholder='Пошук всього по Карпатах' type='search'>
               </div>
               <button class='stn-btn'>Знайти</button>
             </form>
@@ -67,6 +118,9 @@
           <li>
             <a class='item' href='#'>
               <div class='photo-block'>
+                <div class='mask'>
+                  <span class='click'></span>
+                </div>
                 <h5>Микулинецький район</h5>
                 <img alt='#' src='images/p1.jpg'>
               </div>
@@ -78,6 +132,9 @@
           <li>
             <a class='item' href='#'>
               <div class='photo-block'>
+                <div class='mask'>
+                  <span class='click'></span>
+                </div>
                 <h5>Походи в гори</h5>
                 <img alt='#' src='images/p2.jpg'>
               </div>
@@ -89,6 +146,9 @@
           <li>
             <a class='item' href='#'>
               <div class='photo-block'>
+                <div class='mask'>
+                  <span class='click'></span>
+                </div>
                 <h5>Фестиваль "Бойківська Ватра"</h5>
                 <img alt='#' src='images/p3.jpg'>
               </div>
@@ -100,6 +160,9 @@
           <li>
             <a class='item' href='#'>
               <div class='photo-block'>
+                <div class='mask'>
+                  <span class='click'></span>
+                </div>
                 <h5>Каталог житла</h5>
                 <img alt='#' src='images/p4.jpg'>
               </div>
@@ -112,7 +175,7 @@
       </div>
       <div class='slide categories-slide grey'>
         <div class='slide-header'>
-          <h4>Обирай те, що тобі цікаве</h4>
+          <h4>Тематичний відпочинок</h4>
           <p>
             <i>відшукай своє захоплення з нашими категоріями</i>
           </p>
@@ -152,6 +215,9 @@
             <li>
               <a class='object' href='#'>
                 <div class='photo-block'>
+                  <div class='mask'>
+                    <span class='click'></span>
+                  </div>
                   <img alt='#' src='images/o3.jpg'>
                   <div class='object-breadcrumbs clearfix'>
                     <span>Татарів /</span>
@@ -163,10 +229,14 @@
                   <p>Ще до утворення карпатської геосинкліналі на місці сучасної гірської споруди Карпат і їх передгір'я в палеозойську еру існувало пасмо гір...</p>
                 </div>
               </a>
+              <a class='more' href='#'>Розгорнути</a>
             </li>
             <li>
               <a class='object' href='#'>
                 <div class='photo-block'>
+                  <div class='mask'>
+                    <span class='click'></span>
+                  </div>
                   <img alt='#' src='images/o2.jpg'>
                   <div class='object-breadcrumbs clearfix'>
                     <span>Татарів /</span>
@@ -178,10 +248,14 @@
                   <p>Україні є адміністративно-територіальною країнах межа, що відділяє села від міст, нижча, а в Африки Нрмативи у різних країнах різні, однак існує...</p>
                 </div>
               </a>
+              <a class='more' href='#'>Розгорнути</a>
             </li>
             <li>
               <a class='object' href='#'>
                 <div class='photo-block'>
+                  <div class='mask'>
+                    <span class='click'></span>
+                  </div>
                   <img alt='#' src='images/o1.jpg'>
                   <div class='object-breadcrumbs clearfix'>
                     <span>Татарів /</span>
@@ -193,10 +267,14 @@
                   <p>Україні є адміністративно-територіальною країнах межа, що відділяє села від міст, нижча, а в Африки Нрмативи у різних країнах різні, однак існує...</p>
                 </div>
               </a>
+              <a class='more' href='#'>Розгорнути</a>
             </li>
             <li>
               <a class='object' href='#'>
                 <div class='photo-block'>
+                  <div class='mask'>
+                    <span class='click'></span>
+                  </div>
                   <img alt='#' src='images/o4.jpg'>
                   <div class='object-breadcrumbs clearfix'>
                     <span>Татарів /</span>
@@ -208,6 +286,7 @@
                   <p>Україні є адміністративно-територіальною країнах межа, що відділяє села від міст, нижча, а в Африки Нрмативи у різних країнах різні, однак існує...</p>
                 </div>
               </a>
+              <a class='more' href='#'>Розгорнути</a>
             </li>
           </ul>
           <div class='more-results'>
@@ -227,6 +306,7 @@
             <li>
               <a class='event-item' href='#'>
                 <div class='photo-block'>
+                  <span class='mask'></span>
                   <img alt='#' src='images/e1.png'>
                   <div class='breadcrumbs clearfix'>
                     <span>Татарів /</span>
@@ -255,6 +335,7 @@
             <li>
               <a class='event-item' href='#'>
                 <div class='photo-block'>
+                  <span class='mask'></span>
                   <img alt='#' src='images/e2.jpg'>
                   <div class='breadcrumbs clearfix'>
                     <span>Верховина /</span>
@@ -283,6 +364,7 @@
             <li>
               <a class='event-item' href='#'>
                 <div class='photo-block'>
+                  <span class='mask'></span>
                   <img alt='#' src='images/e3.jpg'>
                   <div class='breadcrumbs clearfix'>
                     <span>Закарпаття /</span>
@@ -311,6 +393,7 @@
             <li>
               <a class='event-item' href='#'>
                 <div class='photo-block'>
+                  <span class='mask'></span>
                   <img alt='#' src='images/e4.jpg'>
                   <div class='breadcrumbs clearfix'>
                     <span>Ворохта /</span>
@@ -551,7 +634,7 @@
             </li>
           </ul>
           <div class='more-results'>
-            <a class='stn-btn' href='#'>більше житла</a>
+            <a class='stn-btn' href='#'>Розширений пошук</a>
           </div>
         </div>
       </div>
